@@ -1,7 +1,8 @@
 {
   "name": "@ponomarevlad/local-storage-polyfill",
-  "version": "0.1.0-module",
+  "version": "0.1.0-module.1",
   "description": "",
+  "type": "module",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
   "scripts": {
