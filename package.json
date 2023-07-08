@@ -1,10 +1,23 @@
 {
   "name": "@ponomarevlad/local-storage-polyfill",
-  "version": "0.1.0-module.1",
-  "description": "",
+  "version": "0.1.0-module.3",
   "type": "module",
-  "main": "build/index.js",
-  "typings": "build/index.d.ts",
+  "exports": {
+    ".": {
+      "default": "./build/index.js",
+      "types": "./build/index.d.ts"
+    },
+    "./global": {
+      "default": "./build/global.js",
+      "types": "./build/global.d.ts"
+    }
+  },
+  "files": [
+    "build/*",
+    "*.json",
+    "*.yaml",
+    "*.md"
+  ],
   "scripts": {
     "dev": "tsc -w",
     "test": "jest",
