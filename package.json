@@ -1,6 +1,6 @@
 {
   "name": "@ponomarevlad/local-storage-polyfill",
-  "version": "0.1.0-module.3",
+  "version": "0.1.0-module.4",
   "type": "module",
   "exports": {
     ".": {

@@ -1,4 +1,4 @@
-import { Storage } from './index'
+import { Storage } from './index.js'
 
 if (typeof globalThis.localStorage !== 'undefined') {
   throw new Error(
